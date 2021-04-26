@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timestamp Microservice</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>URL Shortener Microservice</h1>
+    <main>
+        <section>
+            <form action="api/shorturl" method="POST">
+                <fieldset>
+                    <legend>URL Shortener</legend>
+                    <label for="url_input">URL:</label>
+                    <input id="url_input" type="text" name="url" placeholder="https://www.freecodecamp.org/" required />
+                    <input type="submit" value="POST URL" />
+                </fieldset> 
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>For a challenge in <a href="https://www.freecodecamp.org/">freeCodeCamp</a></p>
+    </footer>
+</body>
+</html>
